@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Virtual Piano</h2>
+            <div class="column volume-slider">
+                <span>Volume</span>
+                <input type="range" min="0" max="1" value="0.5" step="any">
+            </div>
+            <div class="column keys-check">
+                <span>Teclas</span>
+                <input type="checkbox" checked>
+            </div>
+        </header>
+        <ul class="piano-keys">
+            <li class="key white" data-key="C"><span>a</span></li>
+            <li class="key black" data-key="Csus"><span>w</span></li>
+            <li class="key white" data-key="D"><span>s</span></li>
+            <li class="key black" data-key="Dsus"><span>e</span></li>
+            <li class="key white" data-key="E"><span>d</span></li>
+            <li class="key white" data-key="F"><span>f</span></li>
+            <li class="key black" data-key="Fsus"><span>t</span></li>
+            <li class="key white" data-key="G"><span>g</span></li>
+            <li class="key black" data-key="Gsus"><span>y</span></li>
+            <li class="key white" data-key="A"><span>h</span></li>
+            <li class="key black" data-key="Asus"><span>u</span></li>
+            <li class="key white" data-key="B"><span>j</span></li>
+            <li class="key white" data-key="Coc"><span>k</span></li>
+            <li class="key black" data-key="Csusoc"><span>o</span></li>
+            <li class="key white" data-key="Doc"><span>l</span></li>
+            <li class="key black" data-key="Dsusoc"><span>p</span></li>
+            <li class="key white" data-key="Eoc"><span>ç</span></li>
+        </ul>
+    </div>
+    <script src="assets/js/script.js" defer></script>
+</body>
+</html>
